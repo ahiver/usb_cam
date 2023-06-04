@@ -178,10 +178,10 @@ public:
       cam_.set_v4l_parameter("saturation", saturation_);
     }
 
-    if (sharpness_ >= 0)
-    {
-      cam_.set_v4l_parameter("sharpness", sharpness_);
-    }
+    // if (sharpness_ >= 0)
+    // {
+    //   cam_.set_v4l_parameter("sharpness", sharpness_);
+    // }
 
     if (gain_ >= 0)
     {
